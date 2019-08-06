@@ -3,10 +3,12 @@ buildscript {
         version = '0.1.0'
         description = 'JSR-305 Nonnull annotations'
         group = 'moe.pine'
-        websiteUrl = 'https://github.com/pine/nunnull'
-        gitUrl = 'https://github.com/pine/nonnull.git'
-        issueTrackerUrl = 'https://github.com/pine/nonnull/issues'
+
         userOrg = 'pinemz'
+        websiteUrl = 'https://github.com/pine/nunnull'
+        vcsUrl = 'https://github.com/pine/nonnull.git'
+        issueTrackerUrl = 'https://github.com/pine/nonnull/issues'
+        githubRepo = 'pine/nonnull'
     }
     repositories {
         jcenter()
@@ -62,4 +64,4 @@ buildtimetracker {
 
 // ----- Bintray ------------------------------------------
 
-// apply from: "${rootProject.projectDir}/gradle/bintray.gradle"
+apply from: "${rootProject.projectDir}/gradle/bintray.gradle"
