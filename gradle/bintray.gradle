@@ -13,7 +13,7 @@ bintray {
         repo = 'maven'
         name = project.name
         desc = project.description
-        licenses = ['MIT']
+        licenses = ['Unlicense']
         websiteUrl = rootProject.ext.websiteUrl
         issueTrackerUrl = rootProject.ext.issueTrackerUrl
         vcsUrl = rootProject.ext.vcsUrl
@@ -36,8 +36,8 @@ install {
                 url rootProject.ext.websiteUrl
                 licenses {
                     license {
-                        name 'MIT License'
-                        url 'http://opensource.org/licenses/mit-license.php'
+                        name 'Unlicense'
+                        url 'https://unlicense.org/'
                     }
                 }
                 developers {
