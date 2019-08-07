@@ -5,7 +5,7 @@ buildscript {
         group = 'moe.pine'
 
         userOrg = 'pinemz'
-        websiteUrl = 'https://github.com/pine/nunnull'
+        websiteUrl = 'https://github.com/pine/nonnull'
         vcsUrl = 'https://github.com/pine/nonnull.git'
         issueTrackerUrl = 'https://github.com/pine/nonnull/issues'
         githubRepo = 'pine/nonnull'
