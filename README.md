@@ -1,6 +1,6 @@
 ## nonnull
 
-:police_car: Simple JSR-305 Nonnull annotations
+:police_car: Simple JSR-305 nonnull annotations
 
 ## Requirements
 - Java 8 or later
