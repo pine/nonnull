@@ -24,5 +24,20 @@ depepdencies {
 - NonNullFields
 - Nullable
 
+## Development
+### Test
+
+```
+$ ./gradlew clean check
+```
+
+### Upload Bintray
+
+```
+$ export BINTRAY_USER=username
+$ export BINTRAY_KEY=apiKey
+$ ./gradlew clean assemble bintrayUpload
+```
+
 ## License
 Unlicense
