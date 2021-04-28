@@ -16,7 +16,7 @@ repositories {
 }
 
 depepdencies {
-    implementation 'moe.pine:nonnull:0.1.0'
+    implementation "moe.pine:nonnull:$latest_version"
 }
 ```
 
