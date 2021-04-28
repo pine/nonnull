@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        version = '0.1.0'
+        version = '0.1.1'
         description = 'JSR-305 Nonnull annotations'
         group = 'moe.pine'
         websiteUrl = 'https://github.com/pine/nonnull'
