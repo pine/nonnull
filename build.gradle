@@ -11,7 +11,7 @@ buildscript {
         githubRepo = 'pine/nonnull'
     }
     repositories {
-        jcenter()
+        mavenCentral()
         maven { url 'https://plugins.gradle.org/m2/' }
     }
     dependencies {
@@ -31,7 +31,7 @@ version rootProject.ext.version
 description rootProject.ext.description
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
