@@ -33,12 +33,10 @@ depepdencies {
 $ ./gradlew clean check
 ```
 
-### Upload Bintray
+### Upload Maven Central
 
 ```
-$ export BINTRAY_USER=username
-$ export BINTRAY_KEY=apiKey
-$ ./gradlew clean assemble bintrayUpload
+$ ./gradlew clean publish
 ```
 
 ## License
